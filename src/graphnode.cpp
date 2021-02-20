@@ -8,10 +8,10 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
-    delete _chatBot; 
+    delete _chatBot; // No need for delete when using smart pointers
 
     ////
     //// EOF STUDENT CODE
@@ -32,7 +32,7 @@ void GraphNode::AddEdgeToChildNode(GraphEdge *edge)
     _childEdges.push_back(edge);
 }
 
-//// STUDENT CODE
+//// TODO: STUDENT CODE
 ////
 void GraphNode::MoveChatbotHere(ChatBot *chatbot)
 {
@@ -50,7 +50,7 @@ void GraphNode::MoveChatbotToNewNode(GraphNode *newNode)
 
 GraphEdge *GraphNode::GetChildEdgeAtIndex(int index)
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     return _childEdges[index];

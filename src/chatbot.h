@@ -27,8 +27,15 @@ public:
     ChatBot(std::string filename); // constructor WITH memory allocation
     ~ChatBot();
 
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
+    // 2 - copy constructor
+
+    // 3 - copy assignment operator
+
+    // 4 - move constructor
+
+    // 5 - move assignment operator
 
     ////
     //// EOF STUDENT CODE

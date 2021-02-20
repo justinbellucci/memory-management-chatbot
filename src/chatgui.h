@@ -13,10 +13,10 @@ private:
     wxBoxSizer *_dialogSizer;
     wxBitmap _image;
 
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
-    ChatLogic *_chatLogic;
+    ChatLogic *_chatLogic; // add unique pointer here
 
     ////
     //// EOF STUDENT CODE

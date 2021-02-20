@@ -1,3 +1,3 @@
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir
+/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/rebuild_cache.dir
+/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/edit_cache.dir
+/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir

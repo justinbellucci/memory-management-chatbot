@@ -20,7 +20,7 @@ ChatBot::ChatBot()
 // constructor WITH memory allocation
 ChatBot::ChatBot(std::string filename)
 {
-    std::cout << "ChatBot Constructor" << std::endl;
+    std::cout << "ChatBot Constructor at: " << this << std::endl;
     
     // invalidate data handles
     _chatLogic = nullptr;
@@ -28,22 +28,32 @@ ChatBot::ChatBot(std::string filename)
 
     // load image into heap memory
     _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
+    std::cout << "Printing _image info address: " << &_image << std::endl;
 }
 
 ChatBot::~ChatBot()
 {
-    std::cout << "ChatBot Destructor" << std::endl;
+    std::cout << "ChatBot Destructor at: " << this << std::endl;
 
     // deallocate heap memory
     if(_image != NULL) // Attention: wxWidgets used NULL and not nullptr
     {
+        std::cout << "DELETING instance at: " << this << std::endl;
         delete _image;
         _image = NULL;
     }
 }
 
-//// STUDENT CODE
+//// TODO: STUDENT CODE
 ////
+
+// 2 - copy constructor
+
+// 3 - copy assignment operator
+
+// 4 - move constructor
+
+// 5 - move assignment operator
 
 ////
 //// EOF STUDENT CODE
@@ -91,7 +101,7 @@ void ChatBot::SetCurrentNode(GraphNode *node)
     std::vector<std::string> answers = _currentNode->GetAnswers();
     std::mt19937 generator(int(std::time(0)));
     std::uniform_int_distribution<int> dis(0, answers.size() - 1);
-    std::string answer = answers.at(dis(generator));
+    std::string answer = answers.at(dis(generator)); // choose one answer
 
     // send selected node answer to user
     _chatLogic->SendMessageToUser(answer);

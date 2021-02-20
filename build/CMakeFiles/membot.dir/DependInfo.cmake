@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.cpp" "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
-  "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatgui.cpp" "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
-  "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.cpp" "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-  "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.cpp" "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
-  "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.cpp" "/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
+  "/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.cpp" "/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir/src/chatbot.cpp.o"
+  "/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatgui.cpp" "/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir/src/chatgui.cpp.o"
+  "/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.cpp" "/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+  "/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.cpp" "/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir/src/graphedge.cpp.o"
+  "/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.cpp" "/Users/justinbellucci/GitHub/memory-management-chatbot/build/CMakeFiles/membot.dir/src/graphnode.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

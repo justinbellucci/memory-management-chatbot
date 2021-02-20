@@ -14,7 +14,7 @@
 
 ChatLogic::ChatLogic()
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // create instance of chatbot
@@ -29,7 +29,7 @@ ChatLogic::ChatLogic()
 
 ChatLogic::~ChatLogic()
 {
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // delete chatbot instance
@@ -123,7 +123,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                     // node-based processing
                     if (type->second == "NODE")
                     {
-                        //// STUDENT CODE
+                        //// TODO: STUDENT CODE
                         ////
 
                         // check if node with this ID exists already
@@ -132,7 +132,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                         // create new element if ID does not yet exist
                         if (newNode == _nodes.end())
                         {
-                            _nodes.emplace_back(new GraphNode(id));
+                            _nodes.emplace_back(new GraphNode(id)); // TODO: Create instance of GraphNode
                             newNode = _nodes.end() - 1; // get iterator to last element
 
                             // add all answers to current node
@@ -146,7 +146,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                     // edge-based processing
                     if (type->second == "EDGE")
                     {
-                        //// STUDENT CODE
+                        //// TODO: STUDENT CODE
                         ////
 
                         // find tokens for incoming (parent) and outgoing (child) node
@@ -160,7 +160,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
                             auto childNode = std::find_if(_nodes.begin(), _nodes.end(), [&childToken](GraphNode *node) { return node->GetID() == std::stoi(childToken->second); });
 
                             // create new edge
-                            GraphEdge *edge = new GraphEdge(id);
+                            GraphEdge *edge = new GraphEdge(id); // TODO: Create instance of GraphEdge
                             edge->SetChildNode(*childNode);
                             edge->SetParentNode(*parentNode);
                             _edges.push_back(edge);
@@ -193,7 +193,7 @@ void ChatLogic::LoadAnswerGraphFromFile(std::string filename)
         return;
     }
 
-    //// STUDENT CODE
+    //// TODO: STUDENT CODE
     ////
 
     // identify root node

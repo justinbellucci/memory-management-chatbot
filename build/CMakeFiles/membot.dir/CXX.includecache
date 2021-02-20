@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.cpp
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.cpp
 iostream
 -
 random
@@ -16,21 +16,21 @@ algorithm
 ctime
 -
 chatlogic.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.h
 graphnode.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.h
 graphedge.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.h
 chatbot.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatgui.cpp
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatgui.cpp
 wx/filename.h
 -
 wx/colour.h
@@ -40,17 +40,17 @@ wx/image.h
 string
 -
 chatbot.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.h
 chatlogic.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.h
 chatgui.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatgui.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatgui.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatgui.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatgui.h
 wx/wx.h
 -
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.cpp
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.cpp
 fstream
 -
 sstream
@@ -66,47 +66,47 @@ tuple
 algorithm
 -
 graphedge.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.h
 graphnode.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.h
 chatbot.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.h
 chatlogic.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatlogic.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatlogic.h
 vector
 -
 string
 -
 chatgui.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatgui.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatgui.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.cpp
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.cpp
 graphnode.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.h
 graphedge.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.h
 vector
 -
 string
 -
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.cpp
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.cpp
 graphedge.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphedge.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphedge.h
 graphnode.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.h
 
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/graphnode.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/graphnode.h
 vector
 -
 string
 -
 chatbot.h
-/Users/justinbellucci/GitHub/CppND-Memory-Management-Chatbot/src/chatbot.h
+/Users/justinbellucci/GitHub/memory-management-chatbot/src/chatbot.h
 
 /usr/local/include/wx-3.0/wx/accel.h
 wx/defs.h
