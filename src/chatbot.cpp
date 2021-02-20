@@ -20,7 +20,7 @@ ChatBot::ChatBot()
 // constructor WITH memory allocation
 ChatBot::ChatBot(std::string filename)
 {
-    std::cout << "ChatBot Constructor at: " << this << std::endl;
+    std::cout << "CREATING instance of ChatBot at: " << this << std::endl;
     
     // invalidate data handles
     _chatLogic = nullptr;
@@ -28,17 +28,18 @@ ChatBot::ChatBot(std::string filename)
 
     // load image into heap memory
     _image = new wxBitmap(filename, wxBITMAP_TYPE_PNG);
-    std::cout << "Printing _image info address: " << &_image << std::endl;
+    // std::cout << "Printing _image info address: " << &_image << std::endl;
 }
 
-ChatBot::~ChatBot()
+// 1 - destructor
+ChatBot::~ChatBot() 
 {
-    std::cout << "ChatBot Destructor at: " << this << std::endl;
+    // std::cout << "ChatBot Destructor at: " << this << std::endl;
 
     // deallocate heap memory
     if(_image != NULL) // Attention: wxWidgets used NULL and not nullptr
     {
-        std::cout << "DELETING instance at: " << this << std::endl;
+        std::cout << "DELETING instance of ChatBot at: " << this << std::endl;
         delete _image;
         _image = NULL;
     }
@@ -48,7 +49,10 @@ ChatBot::~ChatBot()
 ////
 
 // 2 - copy constructor
-
+// ChatBot(const ChatBot &source)
+// {
+    
+// }
 // 3 - copy assignment operator
 
 // 4 - move constructor
