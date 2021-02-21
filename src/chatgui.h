@@ -24,7 +24,7 @@ public:
 
     // getter / setter
     // add .get() to retrieve a raw pointer to the object
-    ChatLogic *GetChatLogicHandle() { return _chatLogic.get(); }
+    ChatLogic *GetChatLogicHandle() const { return _chatLogic.get(); }
 
     // events
     void paintEvent(wxPaintEvent &evt);

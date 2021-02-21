@@ -82,10 +82,10 @@ ChatBot::ChatBot(ChatBot &&source)
     // set Chatbot handle to this ChatBot
     _chatLogic->SetChatbotHandle(this);
 
-    _currentNode = nullptr;
-    _rootNode = nullptr;
-    _chatLogic = nullptr;
-    _image = nullptr;
+    source._currentNode = nullptr;
+    source._rootNode = nullptr;
+    source._chatLogic = nullptr;
+    source._image = NULL;
 
 }
 // 5 - move assignment operator
@@ -96,15 +96,19 @@ ChatBot &ChatBot::operator=(ChatBot &&source)
     if (this == &source){
         return *this;
     }
+    delete _image;
+    _image = source._image;
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
-    delete _image;
+    
+    // set Chatbot handle to this ChatBot
+    _chatLogic->SetChatbotHandle(this);
 
-    _currentNode = nullptr;
-    _rootNode = nullptr;
-    _chatLogic = nullptr;
-    _image = nullptr;
+    source._currentNode = nullptr;
+    source._rootNode = nullptr;
+    source._chatLogic = nullptr;
+    source._image = NULL;
 
     return *this;
 }
